@@ -29,6 +29,9 @@ public class BasicRestassured {
 				""
 				).when().post("/maps/api/place/add/json").then().log().all().assertThat().statusCode(200).body("scope",equalTo("app")
 System.out.println("dehwuew");
-	}
+
+				System.out.println("dehwue1w");
+				System.out.println("dehwu2ew");
+}
 
 }
